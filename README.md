@@ -10,3 +10,5 @@ I had some issues with it, so made some changes to it.
 
 Create a build environment using solbuild as described here: https://getsol.us/articles/packaging/building-a-package/en/
 
+Point of advise, wherever you run this client from, there it will store it's settings, workfile etc. So look into the help for how to set it up. Also run the controller to manage your client(s).
+
