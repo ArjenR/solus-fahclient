@@ -1,0 +1,12 @@
+name       : fahclient
+version    : 7.5
+release    : 1
+source     :
+    - https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.5/fahclient_7.5.1_amd64.deb : efe47061d328667259c1815b98bc6c37da339363fb8e9386673f6a96f4d37d26
+license    : Unknown
+summary    : Folding @ Home Client
+description: Folding @ Home Client
+install    : |
+    tar xf data.tar.xz
+    mkdir -p %installroot%/usr
+    cp -r usr %installroot%/

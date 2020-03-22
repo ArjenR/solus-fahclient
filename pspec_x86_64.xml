@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>fahclient</Name>
+        <Packager>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Packager>
+        <License>Unknown</License>
+        <Summary xml:lang="en">Folding @ Home Client</Summary>
+        <Description xml:lang="en">Folding @ Home Client</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>fahclient</Name>
+        <Summary xml:lang="en">Folding @ Home Client</Summary>
+        <Description xml:lang="en">Folding @ Home Client</Description>
+        <Files>
+            <Path fileType="executable">/usr/bin/FAHClient</Path>
+            <Path fileType="executable">/usr/bin/FAHCoreWrapper</Path>
+            <Path fileType="data">/usr/share/applications/FAHWebControl.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/fahclient/README.md</Path>
+            <Path fileType="doc">/usr/share/doc/fahclient/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/fahclient/changelog.gz</Path>
+            <Path fileType="doc">/usr/share/doc/fahclient/copyright</Path>
+            <Path fileType="doc">/usr/share/doc/fahclient/sample-config.xml</Path>
+            <Path fileType="data">/usr/share/pixmaps/FAHClient.icns</Path>
+            <Path fileType="data">/usr/share/pixmaps/FAHClient.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-22</Date>
+            <Version>7.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
