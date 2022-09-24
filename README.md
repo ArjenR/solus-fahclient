@@ -1,3 +1,5 @@
+NOTE: This repository is now archived.
+
 This is the package recipe for folding@home client.
 
 It creates a package using the one provided for ubuntu/debian.
